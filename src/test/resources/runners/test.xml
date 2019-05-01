@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Data Driven fm">
+  <test thread-count="5" name="Login">
+  <classes>
+  <class name="automation.testcasses.LoginTest"></class>
+  </classes>
+  
+  </test> <!-- Test -->
+  
+    <test thread-count="5" name="Add customer">
+  <classes>
+  <class name="automation.testcasses.AddCustomerTest"></class>
+  </classes>
+  
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->
